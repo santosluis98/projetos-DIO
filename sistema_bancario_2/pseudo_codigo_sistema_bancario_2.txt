@@ -1,0 +1,27 @@
+Separar em funções SAQUE, DEPÓSITO, EXTRATO.
+Criar duas novas funções: cadastrat usuário(cliente) e cadastrar conta bancária
+
+A função SAQUE deve receber argumentos apenas por nomes(keyword only)
+Sugestão de argumentos: SALDO, VALOR, EXTRATO, LIMITE, NUMEROS_DE_SAQUES, LIMITES_DE_SAQUES.
+Sugestão de retorno: SALDO E EXTRATO
+
+A função DEPÓSITO deve receber apenas argumentos por posição(positional only)
+Sugestão de argumentos: SALDO, VALOR, EXTRATO
+Sugestão de retorno: SALDO e EXTRATO
+
+A função EXTRATO deve receber os argumentos por posição e nome(positional only e keyword only)
+Argumentos posicionais: SALDO
+Argumentos nomeados: EXTRATO
+
+Criar função de listar contas
+
+A função de criar usuário deve armazenar
+nome, data de nascimento, cpf e endereço(string com o formato: logradouro, n°, bairro, cidade, sigla do estado)
+Não podendo cadastrar dois usuários com o mesmo cpf
+
+A função criar conta é uma lista que deve ter agência, número da conta e usuário
+O número da conta é sequencial, iniciando em 1
+O número da agência é fixo"0001"
+O usuário pode ter mais de uma conta, mas uma conta pertence a somente um usuário
+
+
