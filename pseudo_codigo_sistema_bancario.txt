@@ -1,6 +1,0 @@
-Criar um sistema em python com 3 operações: DEPÓSITO, SAQUE e EXTRATO
-Deve ser possível depositar apenas valores positivos e todos devem exibir em EXTRATO
-O sistema deve permitir apenas 3 SAQUES deiários como limite máximo de R$ 500,00 por SAQUE
-Caso o usuário não tenha saldo, o sistema deve exibir uma mensagem informando que não será possível sacar por falta de saldo
-Todos os SAQUES devem ser armazenados em uma variável e exibidos em EXTRATO
-Exibir dois números flutuante
